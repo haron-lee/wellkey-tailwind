@@ -9,8 +9,14 @@ module.exports = {
         midnight: "#14213d",
         "point-yellow": "#fca311",
       },
-      width: {
+      maxWidth: {
         1280: "1280px",
+      },
+      minWidth: {
+        350: "350px",
+      },
+      width: {
+        30: "30rem",
       },
       boxShadow: {
         "5xl": "0 0 10px gold",

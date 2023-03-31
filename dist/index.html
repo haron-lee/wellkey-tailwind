@@ -10,26 +10,107 @@
 </head>
 
 <body>
-  <h1 class="sr-only">Hello world!</h1>
-  <header class="w-full py-[31px] bg-midnight text-white">
-    <nav class="w-1280 mx-auto flex justify-between items-center shadow-5xl">
-      <img class="w-20" src="../img/dummy.png" alt="">
-      <div class="w-2/5 flex items-center justify-around">
+  <header class="w-full px-6 bg-midnight text-white">
+    <nav class="container py-6 xl:max-w-1280 mx-auto flex justify-between items-center">
+      <h1 class="sr-only">WellKey</h1>
+      <img src="../img/logo.svg" alt="홈페이지 로고 WellKey">
+      <div class="w-2/5 flex items-center justify-between">
         <a href="#" class="text-sm">Home</a>
         <a href="#" class="text-sm">About</a>
         <a href="#" class="text-sm">Support</a>
-        <a href="https://github.com/haron-lee">Download</a>
+        <a class="font-bold py-3 px-5 bg-point-yellow rounded-full hover:bg-white hover:text-point-yellow ease-in duration-300"
+          href="https://github.com/haron-lee">Download</a>
       </div>
     </nav>
   </header>
-  <section class="flex justify-between bg-midnight shadow-5xl">
-    <div class="w-1280 m-auto text-white">
-      <h2 class="font-bold">Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
-    </div>
+  <section class=" bg-midnight">
+    <article class="container py-6 xl:max-w-1280 mx-auto flex justify-between items-center">
+      <div class=" text-white xl:max-w-2xl">
+        <h2 class="font-bold text-4xl mb-10">Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
+        <p class="xl:max-w-sm mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo similique inventore
+          dolores
+          corrupti deserunt
+          sit
+          minus harum? Obcaecati modi quae quas ea, cum nostrum distinctio quasi qui optio molestiae? Obcaecati?</p>
+        <a class="font-bold py-3 px-5 bg-point-yellow rounded-full hover:bg-white hover:text-point-yellow ease-in
+          duration-300" href="https://github.com/haron-lee">Download</a>
+      </div>
+      <img class="shrink-0 w-2/5" src="../img/kb1.png" alt="메인 앨리스 배열 키보드 사진">
+    </article>
   </section>
-  <section class="shadow-5xl">
-    <div class="w-1280 m-auto"></div>
-  </section>
+  <main class="shadow-5xl">
+    <h2 class="sr-only">?</h2>
+    <article class="container py-20 xl:max-w-1280 mx-auto flex justify-between items-center">
+      <div class="flex gap-10">
+        <img class="rounded-3xl w-2/4" src="../img/kb2.jpeg" alt="앨리스배열 키보드 사진">
+        <div class="w-2/4 flex flex-col justify-center gap-7">
+          <p class="w-3/4 font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium
+            quia
+            accusamus animi
+            quidem, omnis autem repudiandae nostrum? Sequi, obcaecati!</p>
+          <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, autem.</p>
+        </div>
+      </div>
+    </article>
+    <article class="container xl:max-w-1280 mx-auto flex flex-col items-center justify-center gap-6">
+      <p class="font-bold text-4xl text-point-yellow">dummy text of the printing and dummy</p>
+      <p class="max-w-lg text-center">Lorem ipsum dolor <strong class="font-bold text-point-yellow">dummy text</strong>
+        sit amet
+        consectetur
+        adipisicing elit. Error ipsa id provident,
+        totam
+        perferendis adipisci</p>
+    </article>
+    <article class="container py-20 xl:max-w-1280 mx-auto grid grid-cols-3 gap-16">
+      <img class="rounded-3xl" src="../img/kbs/kbs.001.png" alt="">
+      <img class="rounded-3xl" src="../img/kbs/kbs.002.png" alt="">
+      <img class="rounded-3xl" src="../img/kbs/kbs.003.png" alt="">
+    </article>
+    <article class="container pb-20 xl:max-w-1280 mx-auto flex justify-center gap-10">
+      <p class="w-3/5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum recusandae, consectetur quod
+        vitae minima nostrum, libero, corrupti quo id itaque natus laboriosam deserunt at ipsam!</p>
+      <a class="text-white font-bold py-3 px-5 bg-point-yellow rounded-full hover:bg-white hover:text-point-yellow ease-in duration-300 hover:shadow-2xl hover:shadow-point-yellow"
+        href="https://github.com/haron-lee">Learn More</a>
+    </article>
+    <footer>
+      <div class="w-full">
+        <div
+          class="container p-10 xl:max-w-1280 mx-auto flex items-center justify-between gap-7 bg-midnight rounded-3xl">
+          <div class="text-white max-w-lg">
+            <h2 class="font-bold text-3xl mb-4">Subscribe to our Blog post</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odit corporis tenetur. Asperiores,
+              suscipit aut.</p>
+          </div>
+          <form action="post" class="relative">
+            <label for="subscribe"></label>
+            <input id="subscribe" type="email" placeholder="Enter your mail address" required
+              class="w-[30rem] py-4 px-4 border border-gray-400 rounded-full">
+            <button class="text-white font-bold py-3 px-5 bg-point-yellow rounded-full absolute right-2 top-1"
+              type="button">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="container xl:max-w-1280 mx-auto py-14 flex justify-between">
+        <img src="../img/logo1.svg" alt="홈페이지 로고 WellKey">
+        <div class="flex gap-5 max-w-md">
+          <a href="#">
+            <img src="../img/icon-b.svg" alt="blog icon">
+          </a>
+          <a href="#">
+            <img src="../img/icon-insta.svg" alt="instagram icon">
+          </a>
+          <a href="#">
+            <img src="../img/icon-facebook.svg" alt="facebook icon">
+          </a>
+          <a href="#">
+            <img src="../img/icon-youtube.svg" alt="youtube icon">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
 </body>
 
 </html>
