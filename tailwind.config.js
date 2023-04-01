@@ -11,12 +11,17 @@ module.exports = {
       },
       maxWidth: {
         1280: "1280px",
+        350: "350px",
       },
       minWidth: {
         350: "350px",
       },
       width: {
         30: "30rem",
+        128: "128px",
+      },
+      height: {
+        48: "48px",
       },
       boxShadow: {
         "5xl": "0 0 10px gold",
