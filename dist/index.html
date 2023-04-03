@@ -10,17 +10,20 @@
 </head>
 
 <body>
-  <header class="w-full px-7 bg-midnight text-white">
-    <nav class="container py-6 xl:max-w-1280 mx-auto flex justify-between items-center">
-      <h1 id="logo" class="basis-3/5 cursor-pointer"><img src="../img/logo.svg" alt="WellKey"></h1>
-      <ul class="w-1/4 flex items-center justify-between">
-        <li class="cursor-pointer text-sm"><a href="#" class="p-2">Home</a></li>
-        <li class="cursor-pointer text-sm"><a href="#" class="p-2">About</a></li>
-        <li class="cursor-pointer text-sm"><a href="#" class="p-2">Support</a></li>
-      </ul>
-      <a class="font-bold py-3 px-5 bg-point-yellow rounded-full hover:bg-white hover:text-point-yellow ease-in duration-300"
+  <header class="w-full  bg-midnight text-white">
+    <div class=" container py-6 flex px-7 md:px-0 xl:max-w-1280 mx-auto">
+      <nav class="flex items-center float w-full">
+        <h1 id="logo" class="basis-3/5 cursor-pointer"><img src="../img/logo.svg" alt="WellKey"></h1>
+        <ul class="w-1/4 md:flex items-center justify-between hidden ml-auto">
+          <li class="cursor-pointer text-sm"><a href="#" class="p-2">Home</a></li>
+          <li class="cursor-pointer text-sm"><a href="#" class="p-2">About</a></li>
+          <li class="cursor-pointer text-sm"><a href="#" class="p-2">Support</a></li>
+        </ul>
+      </nav>
+      <a class="hidden md:inline font-bold ml-10 py-3 px-5 bg-point-yellow rounded-full hover:bg-white hover:text-point-yellow ease-in duration-300"
         href="https://github.com/haron-lee">Download</a>
-    </nav>
+      <button class="block md:hidden" type="button"><img src="../img/menu.svg" alt="메뉴 버튼"></button>
+    </div>
   </header>
   <section class=" bg-midnight px-7">
     <article
@@ -95,9 +98,9 @@
       <form class="relative w-full">
         <label for="subscribe" class="sr-only">Email input</label>
         <input id="subscribe" type="email" placeholder="Enter your mail address" required
-          class="w-full py-4 px-4 border border-gray-400 rounded-full placeholder:text-xs placeholder:md:text-md">
-        <button class="text-white font-bold py-3 px-5 bg-point-yellow rounded-full absolute right-2 top-1"
-          type="button">
+          class="w-full py-4 px-11 border border-gray-400 rounded-full placeholder:text-sm placeholder:md:text-md bg-[url('../img/mail.svg')] bg-no-repeat bg-[center_left_1rem] align-middle">
+        <button class=" text-white font-bold py-3 px-5 bg-point-yellow rounded-full block ml-auto mt-5 md:absolute md:right-2
+          md:bottom-1.5 hover:bg-white hover:text-point-yellow ease-in duration-300" type="submit">
           Subscribe
         </button>
       </form>
@@ -106,27 +109,27 @@
     </div>
     <a href="#logo"
       class="hidden md:block w-10 h-10 absolute bg-gray-100 border border-gray-300 rounded-full bg-[url('../img/arrow-top_light.svg')] hover:bg-[url('../img/arrow-top_dark.svg')] bg-no-repeat bg-center right-0 mr-5 -mt-14  z-10"></a>
-    <footer class="container xl:max-w-1280 mx-auto py-14 flex justify-between">
+    <footer class="container xl:max-w-1280 mx-auto py-14 flex flex-col md:flex-row justify-between gap-10">
       <h2><img src="../img/logo.svg" alt="홈페이지 로고 WellKey"></h2>
       <ul id="sns-logo" class="flex gap-5 max-w-md cursor-pointer ">
         <li>
           <a href="#">
-            <img src="../img/icon-b.svg" alt="blog icon">
+            <img class="w-32 md:w-10" src="../img/icon-b.svg" alt="blog icon">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="../img/icon-insta.svg" alt="instagram icon">
+            <img class="w-32 md:w-10" src="../img/icon-insta.svg" alt="instagram icon">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="../img/icon-facebook.svg" alt="facebook icon">
+            <img class="w-32 md:w-10" src="../img/icon-facebook.svg" alt="facebook icon">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="../img/icon-youtube.svg" alt="youtube icon">
+            <img class="w-32 md:w-10" src="../img/icon-youtube.svg" alt="youtube icon">
           </a>
         </li>
       </ul>
